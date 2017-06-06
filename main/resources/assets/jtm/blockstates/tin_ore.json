@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "normal": {
+            "model" : "jtm:tin_ore"
+        }
+    }
+}
