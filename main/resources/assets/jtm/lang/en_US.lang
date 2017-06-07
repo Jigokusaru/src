@@ -1,3 +1,13 @@
 item.Tin_Ingot.name=Tin Ingot
+item.tin_pickaxe.name=Tin Pickaxe
+item.tin_axe.name=Tin Axe
+item.tin_hoe.name=Tin Hoe
+item.tin_spade.name=Tin Spade
+item.tin_sword.name=Tin Sword
+item.heart.name=Heart
+item.soul_stealer.name=Soul Stealer
 
-tile.Tin_Ore=Tin Ore
+tile.Tin_Ore.name=Tin Ore
+
+jtm.heart.tooltip=Heals your sorry ass.
+jtm.soul_stealer.tooltip=Rips the hear out of useless mobs.

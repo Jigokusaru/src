@@ -1,8 +1,8 @@
 package com.jigokusaru.testmod.init;
 
 import com.jigokusaru.testmod.Reference;
-import com.jigokusaru.testmod.Utils;
 import com.jigokusaru.testmod.items.ItemTinIngot;
+import com.jigokusaru.testmod.util.Utils;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -13,20 +13,24 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class ModItems {
 	
 	public static Item tiningot;
+	public static Item heart;
 	
 	public static void init(){
 		
 		tiningot = new ItemTinIngot("Tin_Ingot" , "Tin_Ingot");
+		heart = new ItemTinIngot("heart" , "heart");
 		
 	}
 	
 	public static void register(){
 		
 		registerItem(tiningot);
+		registerItem(heart);
 	}
 	
 	public static void registerRenders(){
 		registerRender(tiningot);
+		registerRender(heart);
 	}
 	
 	public static void registerItem(Item item){

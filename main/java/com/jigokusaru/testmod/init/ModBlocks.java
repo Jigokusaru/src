@@ -1,8 +1,8 @@
 package com.jigokusaru.testmod.init;
 
 import com.jigokusaru.testmod.Reference;
-import com.jigokusaru.testmod.Utils;
 import com.jigokusaru.testmod.blocks.BlockTinOre;
+import com.jigokusaru.testmod.util.Utils;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -17,7 +17,7 @@ public class ModBlocks{
 	public static Block tin_ore;
 	
 	public static void init(){
-		tin_ore = new BlockTinOre("Tin_ore","Tin_ore");
+		tin_ore = new BlockTinOre("Tin_Ore","Tin_Ore");
 		
 	}
 	
