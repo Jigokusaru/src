@@ -1,0 +1,13 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "jtm:blocks/block_breaker_basic",
+		"north": "jtm:blocks/block_breaker_basic_front",
+		"east": "jtm:blocks/block_breaker_basic",
+		"south": "jtm:blocks/block_breaker_basic",
+		"weast": "jtm:blocks/block_breaker_basic",
+		"up": "jtm:blocks/block_breaker_basic",
+		"down": "jtm:blocks/block_breaker_basic"
+    }
+    
+}

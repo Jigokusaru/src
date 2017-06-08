@@ -1,0 +1,16 @@
+{
+    "variants": {
+		"facing=north,type=basic": { "model": "jtm:block_breaker_basic" },
+		"facing=south,type=basic": { "model": "jtm:block_breaker_basic", "y": 180 },
+		"facing=east,type=basic": { "model": "jtm:block_breaker_basic", "y": 90 },
+		"facing=west,type=basic": { "model": "jtm:block_breaker_basic", "y": 270 },
+		"facing=up,type=basic": { "model": "jtm:block_breaker_basic", "x": 270 },
+		"facing=down,type=basic": { "model": "jtm:block_breaker_basic", "x": 90 },
+		"facing=north,type=advanced": { "model": "jtm:block_breaker_advanced" },
+		"facing=south,type=advanced": { "model": "jtm:block_breaker_advanced", "y": 180 },
+		"facing=east,type=advanced": { "model": "jtm:block_breaker_advanced", "y": 90 },
+		"facing=west,type=advanced": { "model": "jtm:block_breaker_advanced", "y": 270 },
+		"facing=up,type=advanced": { "model": "jtm:block_breaker_advanced", "x": 270 },
+		"facing=down,type=advanced": { "model": "jtm:block_breaker_advanced", "x": 90 }
+	}
+}

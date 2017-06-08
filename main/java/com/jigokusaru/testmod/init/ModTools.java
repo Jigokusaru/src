@@ -1,6 +1,7 @@
 package com.jigokusaru.testmod.init;
 
 import com.jigokusaru.testmod.Reference;
+import com.jigokusaru.testmod.TestMod;
 import com.jigokusaru.testmod.items.ItemModAxe;
 import com.jigokusaru.testmod.items.ItemModHoe;
 import com.jigokusaru.testmod.items.ItemModPickaxe;
@@ -65,6 +66,7 @@ public class ModTools {
 	}
 	
 	private static void registerItem(Item item) {
+		item.setCreativeTab(TestMod.items);
 		GameRegistry.register(item);
 		Utils.getLogger().info("Registered Item "+ item.getUnlocalizedName().substring(5));
 

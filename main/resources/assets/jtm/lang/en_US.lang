@@ -6,8 +6,22 @@ item.tin_spade.name=Tin Spade
 item.tin_sword.name=Tin Sword
 item.heart.name=Heart
 item.soul_stealer.name=Soul Stealer
+item.tin_helmet.name=Tin Helmet
+item.tin_chestplate.name=Tin Chestplate
+item.tin_leggings.name=Tin Leggings
+item.tin_boots.name=Tin Boots
+item.chip.basic.name=Basic Chip
+item.chip.advanced.name=Advanced Chip
 
 tile.Tin_Ore.name=Tin Ore
+tile.block_breaker.basic.name=Basic Block Breaker
+tile.block_breaker.advanced.name=Advanced Block Breaker
 
 jtm.heart.tooltip=Heals your sorry ass.
-jtm.soul_stealer.tooltip=Rips the hear out of useless mobs.
+jtm.soul_stealer.tooltip=Rips the heart out of useless mobs.
+
+itemGroup.jtmblocks=Jtm Blocks
+itemGroup.jtmitems=Jtm Items
+
+achievement.tinman=Tin Man
+achievement.tinman.desc=Get them tins on your ass.
